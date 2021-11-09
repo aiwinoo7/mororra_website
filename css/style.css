@@ -23,9 +23,9 @@ Table Of Contents:
 :root {
 	--primary: #1c262f;
 	--primary-light: #212d37;
-	--secondary: #0ee951;
-	--tertiary: #00dabf;
-	--gradient: linear-gradient(to right, #0ee951, #00dabf);
+	--secondary: #e3a226;
+	--tertiary: #de5614;
+	--gradient: linear-gradient(to right, #de5614, #e3a226);
 }
 
 h1,
@@ -107,8 +107,8 @@ li {
 		linear,
 		left top,
 		left bottom,
-		from(#0ee951),
-		to(#00dabf)
+		from(#de5614),
+		to(#e3a226)
 	);
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -139,7 +139,7 @@ li {
 
 .navbar .navbar-brand {
 	padding-top: 0.25rem;
-	padding-bottom: 0.25rem;
+	//padding-bottom: 0.25rem;
 }
 
 .navbar .logo-image img {
@@ -227,8 +227,8 @@ li {
 		linear,
 		left top,
 		left bottom,
-		from(#0ee951),
-		to(#00dabf)
+		from(#de5614),
+		to(#e3a226)
 	);
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -369,7 +369,7 @@ li {
 	border-image-slice: 1;
 	border-width: 2px;
 	border-image-source: var(--gradient);
-	box-shadow: 5px 5px 0px 0px #0ee951;
+	box-shadow: 5px 5px 0px 0px #de5614;
 }
 
 
